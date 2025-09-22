@@ -18,3 +18,14 @@ document.addEventListener('mouseover', function(e) {
         cursor.style.backgroundColor = 'var(--pointer-color)';
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('#navbar nav ul');
+
+    if (menuToggle && navUl) {
+        menuToggle.addEventListener('click', function() {
+            navUl.classList.toggle('active');
+        });
+    }
+});
