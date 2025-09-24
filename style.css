@@ -235,7 +235,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
-    margin-bottom: 4rem; 
+    margin-bottom: 4rem;
+}
+
+.portfolio-grid a{
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .portfolio-item {
